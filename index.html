@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+
+<body>
+    <a href="#table1">First Table</a><br>
+    <a href="#table2">Second Table</a><br>
+    <a href="#table3">Third Table</a><br>
+    <a href="#table4">Fourth Table</a><br>
+    <a href="#table5">Fifth Table</a><br>
+    <a href="#table6">Sixth Table</a><br>
+    <table border="black" cellspacing="0" cellpadding="4" id="table1" align="center">
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Room No</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Mathematics</td>
+            <td>9:00 AM</td>
+            <td>10:00 AM</td>
+            <td>101</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Physics</td>
+            <td>10:15 AM</td>
+            <td>11:15 AM</td>
+            <td>102</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Chemistry</td>
+            <td>9:00 AM</td>
+            <td>10:00 AM</td>
+            <td>103</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Biology</td>
+            <td>10:30 AM</td>
+            <td>11:30 AM</td>
+            <td>104</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="black" cellspacing="0" cellpadding="6" id="table2" align="center">
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Start time</th>
+            <th>End time</th>
+            <th>Room No</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td>Mathematics</td>
+            <td>9:00 AM</td>
+            <td>10:00 AM</td>
+            <td>101</td>
+        </tr>
+        <tr>
+            <td colspan="2">Physics</td>
+            <td>11:15 AM</td>
+            <td>102</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Tuesday</td>
+            <td>Chemistry</td>
+            <td>9:00 AM</td>
+            <td>10:00 AM</td>
+            <td>103</td>
+        </tr>
+        <tr>
+            <td colspan="3">Practical Lab</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="black" cellspacing="0" cellpadding="4" id="table3" align="center">
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Room No</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td>Mathematics</td>
+            <td>9:00 AM</td>
+            <td>10:00 AM</td>
+            <td>101</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>10:15 AM</td>
+            <td>11:15 AM</td>
+            <td>102</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Chemistry</td>
+            <td>9:00 AM</td>
+            <td>10:00 AM</td>
+            <td>103</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Biology</td>
+            <td>10:30 AM</td>
+            <td>11:30 AM</td>
+            <td>104</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="1" cellspacing="0" cellpadding="6" width="50%" id="table4" align="center">
+        <tr>
+            <td>Hours</td>
+            <td>1</td>
+            <td>2</td>
+            <td></td>
+            <td>3</td>
+            <td>4</td>
+            <td></td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>8:00-<br>8:30</td>
+            <td>8:30-<br>9:00</td>
+            <td>9:00-<br>9:30</td>
+            <td>9:30-<br>10:30</td>
+            <td>10:30-<br>12:00</td>
+            <td>12:00-1:00</td>
+            <td>1:00-<br>02:00</td>
+            <td>3:00-<br>04:00</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td colspan="2">Lab</td>
+            <td rowspan="5" valign="top">BREAK</td>
+            <td>S1</td>
+            <td>S3</td>
+            <td rowspan="5" valign="top">LUNCH<BR>BREAK</td>
+            <td>S3</td>
+            <td>S4</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>S4</td>
+            <td>S3</td>
+            <td>S2</td>
+            <td>S1</td>
+            <td colspan="2">LAB</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2">LAB</td>
+            <td>S3</td>
+            <td>S2</td>
+            <td>S1</td>
+            <td>S4</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td colspan="2">SPORTS</td>
+            <td>S4</td>
+            <td>S1</td>
+            <td>S2</td>
+            <td>S3</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>S4</td>
+            <td>S3</td>
+            <td>S2</td>
+            <td>S1</td>
+            <td colspan="2">CLUBS</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="black" cellspacing="0" cellpadding="6" id="table5" align="center">
+        <tr>
+            <th>Reaction Name</th>
+            <th>Reactants</th>
+            <th>Products</th>
+            <th>Reaction Type</th>
+        </tr>
+        <tr>
+            <td>Combustion of Methane</td>
+            <td>CH<sub>4</sub> + 2O<sub>2</sub></td>
+            <td>CO<sub>2</sub> + H<sub>2</sub>O</td>
+            <td><u>Exothermic</u></td>
+        </tr>
+        <tr>
+            <td>Replacement Reaction</td>
+            <td>Zn + <strike>HCL</strike> (Replaced)</td>
+            <td>ZnCl<sub>2</sub> + H<sub>2</sub></td>
+            <td>Single Replacement</td>
+        </tr>
+        <tr>
+            <td>Neutralization</td>
+            <td>H<sub>2</sub>SO<sub>4</sub>+2NaOH</td>
+            <td>Na<sub>2</sub>SO<sub>4</sub></td>
+            <td>Acid-Base</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table border="1" cellspacing="0" cellpadding="6" id="table6" align="center">
+        <tr>
+            <th>Formula Name</th>
+            <th>Equation</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Pythagorean Theorem</td>
+            <td>a<sup>2</sup>+b<sup>2</sup> = c<sup>2</sup></td>
+            <td>Describes the relationship between the sides of a<br><b>right triangle</b>, where <u>c</u> is the
+                hypotenuse.</td>
+        </tr>
+        <tr>
+            <td>Quadratic Formula</td>
+            <td>x = (-b &#177 &#8730(b<sup>2</sup> -<br>4ac)) / 2a</td>
+            <td>Used to find the roots of a <b>quadratic equation</b>:<br>ax<sup>2</sup> + bx + c = 0.</td>
+        </tr>
+
+        <tr>
+            <td>Newton's Second Law</td>
+            <td>F=ma</td>
+            <td>States that force (f) is the product of mass (m) and<br> acceleration (a).</td>
+        </tr>
+
+        <tr>
+            <td>Area of a Circle</td>
+            <td>A = &Pi; r<sup>2</sup></td>
+            <td>Represents the area (A) of a circle with radius <b>r</b>.</td>
+        </tr>
+        <tr>
+            <td>Einstein's Mass-<br>Energy Equivalence</td>
+            <td>E=mc<sup>2</sup></td>
+            <td>Relates energy (E) to mass (m) and the speed of <br>light (c). One of the most <u>famous formulas</u> in
+                <br>physics.
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
